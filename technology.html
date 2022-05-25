@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technology</title>
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- FontAwesome -->
+    <script
+      src="https://kit.fontawesome.com/48699ff6ff.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/normalize.css" type="text/css" />
+    <link rel="stylesheet" href="CSS/small.css" type="text/css" />
+    <link rel="stylesheet" href="CSS/medium.css" type="text/css" />
+    <link rel="stylesheet" href="CSS/large.css" type="text/css" />
+  </head>
+
+  <body id="technology">
+    <div class="loader">
+      <div class="logo">
+        <img src="CSS/assets/shared/loader-logo.svg" alt="Loading-Logo" />
+      </div>
+      <div class="loading">
+        <span>L</span>
+        <span>O</span>
+        <span>A</span>
+        <span>D</span>
+        <span>I</span>
+        <span>N</span>
+        <span>G</span>
+      </div>
+    </div>
+
+    <header>
+      <div class="container-fluid">
+        <div class="row">
+          <div
+            class="col-lg-5 col-md-5 col-sm-5 col-6 d-flex flex-row align-items-center navbarBrand"
+          >
+            <div class="nav-brand flex-grow-0">
+              <img
+                class="nav-logo"
+                src="CSS/assets/shared/logo.svg"
+                alt="Logo"
+              />
+            </div>
+            <div class="nav-border flex-grow-1 d-none d-sm-block">
+              <hr />
+            </div>
+          </div>
+
+          <div
+            class="col-lg-7 col-md-7 col-sm-7 d-none d-sm-block links d-flex align-items-center"
+          >
+            <ul class="link-list d-flex justify-content-around">
+              <li>
+                <a href="index.html"><span>00</span>&nbsp;Home</a>
+                <hr />
+              </li>
+              <li>
+                <a href="destination.html"><span>01</span>&nbsp;Destination</a>
+                <hr />
+              </li>
+              <li>
+                <a href="crew.html"><span>02</span>&nbsp;Crew</a>
+                <hr />
+              </li>
+              <li>
+                <a href="technology.html"><span>03</span>&nbsp;Technology</a>
+                <hr class="active" />
+              </li>
+            </ul>
+          </div>
+
+          <div
+            class="col-6 d-block d-sm-none d-flex justify-content-end align-items-center"
+          >
+            <img
+              class="ham-icon"
+              src="./CSS/assets/shared/icon-hamburger.svg"
+              alt="hamburger-icon"
+              onclick="openNav()"
+            />
+          </div>
+
+          <div class="sidebar">
+            <ul class="sidebar-list d-flex flex-column">
+              <li>
+                <img
+                  class="close-icon"
+                  src="./CSS/assets/shared/icon-close.svg"
+                  alt="close-icon"
+                  onclick="closeNav()"
+                />
+              </li>
+              <li class="d-flex flex-column">
+                <a href="index.html"><span>00</span>&nbsp;Home</a>
+                <hr />
+              </li>
+              <li class="d-flex flex-column">
+                <a href="sdestination.html"><span>01</span>&nbsp;Destination</a>
+                <hr />
+              </li>
+              <li class="d-flex flex-column">
+                <a href="crew.html"><span>02</span>&nbsp;Crew</a>
+                <hr />
+              </li>
+              <li class="d-flex flex-column">
+                <a href="technology.html"><span>03</span>&nbsp;Technology</a>
+                <hr class="active" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="row d-flex">
+          <div class="col-12 page-desc">
+            <p><span>03</span>&nbsp;&nbsp; space launch 101</p>
+          </div>
+
+          <div
+            class="technology-div col-lg-8 col-md-12 col-sm-12 d-flex flex-lg-row flex-column align-items-center justify-content-start order-lg-1 order-last"
+          >
+            <div class="d-flex flex-lg-column flex-row tech-buttons-div">
+              <button class="active-tech">1</button>
+              <button>2</button>
+              <button>3</button>
+            </div>
+            <div class="tech-div">
+              <h6>the terminology...</h6>
+              <h1 class="anim">Launch vehicle</h1>
+              <p class="anim">
+                A launch vehicle or carrier rocket is a rocket-propelled vehicle
+                used to carry a payload from Earth's surface to space, usually
+                to Earth orbit or beyond. Our WEB-X carrier rocket is the most
+                powerful in operation. Standing 150 metres tall, it's quite an
+                awe-inspiring sight on the launch pad!
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="rocket-img-div col-lg-4 col-md-12 col-sm-12 d-flex align-items-center justify-content-lg-end justify-content-center order-1 order-lg-last"
+          >
+            <img
+              class="img-fluid rocket-img anim"
+              src="./CSS/assets/technology/image-launch-vehicle-portrait.jpg"
+              alt="technology-img"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Javascript -->
+    <script src="JS/app.js" type="text/javascript"></script>
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

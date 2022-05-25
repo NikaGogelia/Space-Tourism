@@ -1,0 +1,680 @@
+@media only screen and (min-width: 1024px) {
+  /* Loader */
+  .loading {
+    font-size: 1.5em;
+  }
+
+  .loading > span {
+    padding: 0.8em;
+  }
+
+  .logo > img {
+    width: 8em;
+    height: 8em;
+  }
+
+  /* Navbar */
+  header {
+    padding: 2.5em 0 0 2.5em;
+    margin-bottom: 3em;
+  }
+
+  .nav-logo {
+    width: 3.5em;
+    height: 3.5em;
+    margin: 0 3em 0 1em;
+  }
+
+  .link-list {
+    padding: 2.5em 7em 2.5em 4em;
+    width: 100%;
+  }
+
+  .link-list > li {
+    font-size: 1em;
+  }
+
+  .link-list > li > hr {
+    position: relative;
+    top: 2.5em;
+    height: 0.18em;
+  }
+
+  .link-list > li > a {
+    letter-spacing: 0.23em;
+  }
+
+  /* Sidebar */
+  .sidebar {
+    display: none;
+  }
+
+  /* Home */
+  #home {
+    background-image: url("assets/home/background-home-desktop.jpg");
+    text-align: left;
+  }
+
+  .home-text {
+    margin-bottom: 0;
+  }
+
+  .home-text > * {
+    margin: 1.5em 0;
+  }
+
+  .home-text > h1 {
+    font-size: 8.5em;
+  }
+
+  .h-p1 {
+    font-size: 1.43em;
+    letter-spacing: 0.3em;
+  }
+
+  .h-p2 {
+    line-height: 1.9em;
+    letter-spacing: 0.03em;
+    position: relative;
+    left: 10px;
+    font-size: 1.06em;
+    width: 23em;
+    text-align: justify;
+  }
+
+  .home-btn {
+    margin-bottom: 0;
+  }
+
+  .home-btn > button {
+    width: 15em;
+    height: 15em;
+  }
+
+  .home-btn > button:hover {
+    box-shadow: 0em 0em 0em 4em #d0d6f925;
+  }
+
+  .home-btn > button > a {
+    font-size: 2em;
+  }
+
+  /* Page Description Paragraph */
+  .page-desc {
+    margin-bottom: 3em;
+  }
+
+  .page-desc > p {
+    font-size: 1.7em;
+    letter-spacing: 0.2em;
+  }
+
+  /* Destination */
+  #destination {
+    background-image: url("./assets/destination/background-destination-desktop.jpg");
+  }
+
+  .planets {
+    padding-bottom: 4em;
+  }
+
+  .planet-list > li {
+    margin-right: 2em;
+    font-size: 1.1em;
+    letter-spacing: 0.2em;
+  }
+
+  .planet-list > li > hr {
+    position: relative;
+    top: 0.6em;
+    height: 0.2em;
+  }
+
+  .planet-div > h1 {
+    font-size: 6.3em;
+    position: relative;
+    right: 0.1em;
+    margin: 0.3em 0;
+  }
+
+  .planet-div > p {
+    font-size: 1.1em;
+    line-height: 2em;
+    width: 100%;
+    margin-bottom: 1.5em;
+    text-align: justify;
+  }
+
+  .planet-info {
+    margin-top: 0.8em;
+  }
+
+  .planet-info > * {
+    margin-right: 4em;
+  }
+
+  .planet-desc-1 > li:first-child,
+  .planet-desc-2 > li:first-child {
+    font-size: 0.9em;
+    letter-spacing: 0.2em;
+  }
+
+  .planet-desc-1 > li > h1,
+  .planet-desc-2 > li > h1 {
+    margin: 0.3em 0;
+    font-size: 1.7em;
+  }
+
+  /* Crew */
+  #crew {
+    background-image: url("./assets/crew/background-crew-desktop.jpg");
+    text-align: left;
+  }
+
+  #crew .page-desc {
+    margin-bottom: 6em;
+  }
+
+  .crew-desc > h2,
+  .crew-desc > h1 {
+    position: relative;
+    right: 0.1em;
+  }
+
+  .crew-desc > h2 {
+    font-size: 2.3em;
+  }
+
+  .crew-desc > h1 {
+    font-size: 3.6em;
+    margin: 0.4em 0;
+  }
+
+  .crew-desc > p {
+    font-size: 1.3em;
+    width: 24.5em;
+    height: 7em;
+    margin: 1em 0 0;
+    text-align: justify;
+  }
+
+  .crew-member {
+    width: 30em;
+    height: 35em;
+  }
+
+  .crew-member-change {
+    margin: 5em 0 0;
+  }
+
+  .crew-member-change > button {
+    margin-right: 1.5em;
+    height: 1em;
+    width: 1em;
+  }
+
+  /* Technology */
+  #technology {
+    background-image: url("./assets/technology/background-technology-desktop.jpg");
+    text-align: left;
+  }
+
+  #technology .container {
+    max-width: 100%;
+    padding-left: 10em;
+    padding-bottom: 4em;
+  }
+
+  .rocket-img {
+    width: 80%;
+    border-bottom-left-radius: 3%;
+    border-top-left-radius: 3%;
+  }
+
+  .rocket-img-div {
+    padding-right: 0;
+  }
+
+  .tech-div > h6 {
+    letter-spacing: 0.2em;
+    font-size: 1.1em;
+  }
+
+  .tech-div > h1 {
+    font-size: 3em;
+    margin: 0.3em 0;
+    position: relative;
+    right: 0.1em;
+  }
+
+  .tech-div > p {
+    line-height: 2em;
+    font-size: 1.1em;
+    width: 70%;
+    text-align: justify;
+  }
+
+  .tech-buttons-div {
+    margin-right: 3.5em;
+  }
+
+  .tech-buttons-div > button {
+    width: 4rem;
+    height: 4rem;
+    font-size: 1.4em;
+    margin-bottom: 1.2em;
+  }
+
+  .tech-buttons-div > button:last-child {
+    margin-bottom: 0;
+  }
+
+  @media only screen and (min-width: 2000px) {
+    /* Navbar */
+    .nav-logo {
+      width: 4em;
+      height: 4em;
+    }
+
+    .link-list {
+      padding: 3.5em 5em 3.5em 4em;
+    }
+
+    .link-list > li > a {
+      font-size: 1.4em;
+    }
+
+    .link-list > li > hr {
+      top: 3.5em;
+      height: 0.25em;
+    }
+
+    /* Home */
+    .home-text > h1 {
+      font-size: 12em;
+    }
+
+    .h-p1 {
+      font-size: 2em;
+    }
+
+    .h-p2 {
+      font-size: 1.5em;
+      width: 23em;
+    }
+
+    .home-btn > button {
+      width: 20em;
+      height: 20em;
+    }
+
+    .home-btn > button:hover {
+      box-shadow: 0em 0em 0em 5em #d0d6f925;
+    }
+
+    .home-btn > button > a {
+      font-size: 2.5em;
+    }
+
+    /* Crew */
+    .crew-member {
+      width: 100%;
+      height: 43em;
+    }
+
+    .crew-desc > h2 {
+      font-size: 3.2em;
+    }
+
+    .crew-desc > h1 {
+      font-size: 4.2em;
+      margin: 0.3em 0;
+    }
+
+    .crew-desc > p {
+      font-size: 1.6em;
+      width: 26em;
+      height: 7em;
+    }
+
+    .crew-member-change > button {
+      margin-right: 2.4em;
+      height: 1.3em;
+      width: 1.3em;
+    }
+
+    /* Technology */
+    #technology .container {
+      max-width: 80%;
+      padding: 0 10em 4em;
+    }
+
+    #technology .page-desc {
+      margin-bottom: 6em;
+    }
+
+    .rocket-img {
+      width: 80%;
+      border-radius: 15%;
+    }
+
+    .tech-div > h6 {
+      letter-spacing: 0.3em;
+      font-size: 1.4em;
+    }
+
+    .tech-div > h1 {
+      font-size: 4.5em;
+      margin: 0.5em 0;
+    }
+
+    .tech-div > p {
+      line-height: 2.5em;
+      font-size: 1.4em;
+      width: 80%;
+    }
+
+    .tech-buttons-div {
+      margin-right: 5.5em;
+    }
+
+    .tech-buttons-div > button {
+      width: 6rem;
+      height: 6rem;
+      font-size: 1.8em;
+      margin-bottom: 1.4em;
+    }
+
+    @media only screen and (min-height: 1256px) {
+      .member-img-border {
+        display: block;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 2000px) and (min-width: 1700px) {
+    /* Navbar */
+    .link-list {
+      padding: 3em 6em 3em 4em;
+    }
+
+    .link-list > li > a {
+      font-size: 1.2em;
+    }
+
+    .link-list > li > hr {
+      top: 3em;
+      height: 0.25em;
+    }
+
+    /* Home */
+    .home-text > h1 {
+      font-size: 11em;
+    }
+
+    .h-p1 {
+      font-size: 1.85em;
+    }
+
+    .h-p2 {
+      font-size: 1.35em;
+      width: 23em;
+    }
+
+    .home-btn > button {
+      width: 18em;
+      height: 18em;
+    }
+
+    .home-btn > button:hover {
+      box-shadow: 0em 0em 0em 5em #d0d6f925;
+    }
+
+    .home-btn > button > a {
+      font-size: 2.2em;
+    }
+
+    /* Crew */
+    .crew-member {
+      width: 100%;
+      height: 39.4em;
+    }
+
+    .crew-desc > h2 {
+      font-size: 3.2em;
+    }
+
+    .crew-desc > h1 {
+      font-size: 4.2em;
+      margin: 0.3em 0;
+    }
+
+    .crew-desc > p {
+      font-size: 1.6em;
+      width: 26em;
+      height: 7em;
+    }
+
+    .crew-member-change > button {
+      margin-right: 2.4em;
+      height: 1.3em;
+      width: 1.3em;
+    }
+
+    /* Technology */
+    .tech-div > h6 {
+      letter-spacing: 0.3em;
+      font-size: 1.3em;
+    }
+
+    .tech-div > h1 {
+      font-size: 4.3em;
+      margin: 0.4em 0;
+    }
+
+    .tech-div > p {
+      line-height: 2em;
+      font-size: 1.2em;
+      width: 70%;
+    }
+
+    .tech-buttons-div {
+      margin-right: 5em;
+    }
+
+    .tech-buttons-div > button {
+      width: 5rem;
+      height: 5rem;
+      font-size: 1.6em;
+      margin-bottom: 1.3em;
+    }
+
+    @media only screen and (min-height: 1082px) {
+      .member-img-border {
+        display: block;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1700px) and (min-width: 1400px) {
+    /* Navbar */
+    .nav-logo {
+      width: 3em;
+      height: 3em;
+    }
+
+    .link-list > li > a {
+      font-size: 1.1em;
+    }
+
+    /* Home */
+    .home-text > h1 {
+      font-size: 9em;
+    }
+
+    .h-p1 {
+      font-size: 1.5em;
+    }
+
+    .h-p2 {
+      font-size: 1.35em;
+      width: 23em;
+    }
+
+    /* Crew */
+    .crew-member {
+      width: 100%;
+      height: 40em;
+    }
+
+    .crew-desc > h2 {
+      font-size: 3em;
+    }
+
+    .crew-desc > h1 {
+      font-size: 4em;
+      margin: 0.3em 0;
+    }
+
+    .crew-desc > p {
+      font-size: 1.5em;
+      width: 24.5em;
+      height: 7em;
+    }
+
+    /* Technology */
+    .tech-div > h6 {
+      letter-spacing: 0.3em;
+      font-size: 1.2em;
+    }
+
+    .tech-div > h1 {
+      font-size: 4em;
+      margin: 0.3em 0;
+    }
+
+    .tech-div > p {
+      line-height: 1.8em;
+      font-size: 1.1em;
+      width: 80%;
+    }
+
+    .tech-buttons-div {
+      margin-right: 4.5em;
+    }
+
+    .tech-buttons-div > button {
+      width: 4.5rem;
+      height: 4.5rem;
+      font-size: 1.4em;
+      margin-bottom: 1.2em;
+    }
+
+    @media only screen and (min-height: 1000px) {
+      .member-img-border {
+        display: block;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1400px) and (min-width: 1184px) {
+    @media only screen and (min-height: 900px) {
+      .member-img-border {
+        display: block;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1180px) and (min-width: 1024px) {
+    /* Navbar */
+    .nav-logo {
+      width: 3em;
+      height: 3em;
+    }
+
+    .link-list > li > a {
+      font-size: 0.8em;
+    }
+
+    .link-list {
+      padding: 2em 5.5em 2em 4em;
+    }
+
+    .link-list > li > hr {
+      top: 2em;
+    }
+
+    /* Home */
+    .home-text > h1 {
+      font-size: 7.7em;
+    }
+
+    .h-p1 {
+      font-size: 1.3em;
+    }
+
+    .h-p2 {
+      font-size: 1em;
+      width: 22em;
+    }
+
+    .home-btn > button {
+      width: 14em;
+      height: 14em;
+    }
+
+    .home-btn > button:hover {
+      transition: box-shadow 1s;
+      box-shadow: 0em 0em 0em 3.5em #d0d6f925;
+    }
+
+    .home-btn > button > a {
+      font-size: 1.7em;
+    }
+
+    /* Crew */
+    .crew-member {
+      width: 100%;
+      height: 30em;
+    }
+
+    .crew-desc > h2 {
+      font-size: 2.2em;
+    }
+
+    .crew-desc > h1 {
+      font-size: 3em;
+      margin: 0.3em 0;
+    }
+
+    .crew-desc > p {
+      font-size: 1.3em;
+      width: 22em;
+      height: 6.5em;
+    }
+
+    @media only screen and (min-height: 800px) {
+      .member-img-border {
+        display: block;
+      }
+    }
+  }
+
+  @media only screen and (min-height: 900px) {
+    header {
+      margin-bottom: 6em;
+    }
+  }
+
+  @media only screen and (min-height: 1000px) {
+    header {
+      margin-bottom: 8em;
+    }
+  }
+
+  @media only screen and (min-height: 1200px) {
+    header {
+      margin-bottom: 12em;
+    }
+  }
+}
